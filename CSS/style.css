@@ -33,10 +33,45 @@ p {
 }
 
 .container {
+    width: 100%;
     max-width: 580px;
-    margin: 50px auto;
-    padding: 0 25px;
-    
+    margin: 50px auto 0px;
+    padding: 0 25px;    
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 117px;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 8px auto;
+}
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white url(/IMG/moon-stars.svg) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translate(-50%);
+    animation: slide-back 0.2s;
 }
 
 
